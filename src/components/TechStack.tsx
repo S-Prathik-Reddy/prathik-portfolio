@@ -15,18 +15,52 @@ const textureLoader = new THREE.TextureLoader();
 
 const imageUrls = [
   "/images/react2.webp",
-  "/images/next2.webp",
   "/images/node2.webp",
   "/images/express.webp",
   "/images/mongo.webp",
   "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/python.webp",
+  "/images/java.webp",
+  "/images/c.webp",
+  "/images/cpp.webp",
+  "/images/r.webp",
+  "/images/sql.webp",
+  "/images/reactnative.webp",
+  "/images/angular.webp",
+  "/images/html.webp",
+  "/images/css.webp",
+  "/images/spring.webp",
+  "/images/dotnet.webp",
+  "/images/flask.webp",
+  "/images/graphql.webp",
+  "/images/tensorflow.webp",
+  "/images/pytorch.webp",
+  "/images/docker.webp",
+  "/images/kubernetes.webp",
+  "/images/aws.webp",
+  "/images/git.webp",
+  "/images/jest.webp",
+  "/images/selenium.webp",
+  "/images/tableau.webp",
+  "/images/salesforce.webp",
+  "/images/hadoop.webp",
+  "/images/spark.webp",
+  "/images/jenkins.webp",
+  "/images/langchain.webp",
+  "/images/pandas.webp",
+  "/images/streamlit.webp",
+  "/images/sqlite.webp",
+  "/images/github-actions.webp",
+  "/images/huggingface.webp",
+  "/images/opencv.webp",
+  "/images/databricks.webp",
 ];
 
 const textures = imageUrls.map((url) => textureLoader.load(url));
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
-const spheres = [...Array(30)].map(() => ({
+const spheres = [...Array(43)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
 
