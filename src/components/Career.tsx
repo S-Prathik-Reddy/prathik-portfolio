@@ -48,7 +48,7 @@ const Career = () => {
                 <h4>React Native Developer Intern</h4>
                 <h5>CodeFacts Solutions</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2023</h3>
             </div>
             <p>
               Developed a client-specific dashboard app using React Native CLI for cross-platform
